@@ -1,0 +1,39 @@
+*{
+  text-align: center;
+}
+
+#addCardForm {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#addCardForm label {
+  text-align: center;
+  margin-bottom: 8px; /* Optional: Add some space between labels */
+}
+
+/* Additional styling for the input fields */
+#addCardForm input {
+  width: 200px; /* Adjust the width based on your design */
+  margin-bottom: 16px; /* Optional: Add some space between input fields */
+}
+
+/* Additional styling for the button */
+#addCardButton {
+  width: 150px; /* Adjust the width based on your design */
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
